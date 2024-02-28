@@ -1,0 +1,17 @@
+npm init -y
+
+npm install -D tailwindcss
+
+COMANDO PARA CREAR ARCHIVOS DE CONFIGURACION CSS
+npx tailwind init
+
+COMPILA LAS CLASES QUE VA A TENER, SIMPRE QUE SE AGREGEN CLASES SE AGREGA ESTE COMANDO
+npx tailwindcss -i tailwind.css -o styles.css
+
+npx tailwind.css -i tailwind.css -o styles.css --minify
+
+npm i -D vite postcss autoprefixer 
+
+npx tailwind init -p 
+
+npm run dev 
